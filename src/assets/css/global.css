@@ -1,0 +1,67 @@
+body {
+  background: rgb(122, 207, 122);
+  color: #333;
+}
+
+.main {
+  width: 400px;
+  margin: 100px auto;
+}
+.mainTitle {
+  text-align: center;
+  font-size: 6em;
+  color: black; 
+  font-family: 'Bangers', cursive;
+}
+
+.inputArea {
+  margin-bottom: 15px;
+}
+.inputText {
+  padding: 5px;
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list__item {
+  overflow: hidden;
+  padding: 15px 15px;
+  background: #fff;
+  transition: .5s transform;
+  border-bottom: solid .5px rgb(64, 196, 114);
+}
+.list__item:hover {
+  transform: scale(1.02);
+  transition: .5s transform;
+}
+.done{
+  background: #c9c9c9;
+  color: #888;
+}
+
+.icon-square, .icon-check, .icon-times {
+  cursor: pointer;
+  transition: .3s transform;
+}
+.icon-square:hover, .icon-check:hover, .icon-times:hover {
+  transform: scale(1.8);
+  transition: .3s transform;
+}
+.icon-square, .icon-check {
+  margin-right: 15px;
+}
+.icon-times {
+  float: right;
+  top: 4px;
+  position: relative;
+  color: rgb(198, 0, 0);
+}
