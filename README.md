@@ -1,24 +1,8 @@
 # vue-todo
+Vue.jsの練習で作成した単純なToDoアプリになります。  
+https://vue-todo-97f6a.firebaseapp.com/
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 環境
+- macOS Catalina 10.15.5
+- Visual Studio Code
+- データベース：firebase
